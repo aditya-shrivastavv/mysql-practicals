@@ -1,5 +1,5 @@
 --1
-select * from client_master01 where city = 'Mandsaur' or city = 'Ratlam' or city = 'Mumbai';
+select * from client_master01 where city in ('Mandsaur', 'Ratlam', 'Mumbai');
 
 --2
 select * from client_master01 where city = 'Mumbai';
